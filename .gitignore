@@ -1,0 +1,27 @@
+# Build inputs pulled from a device / ROM: never commit these.
+input/
+build/
+dist/
+
+# Signing material: never commit.
+keys/
+*.p12
+*.pem
+*.key
+*.keystore
+
+# Binary / proprietary artifacts and logs: never commit.
+*.apk
+*.zip
+*.xml
+*.arsc
+*.dex
+*.jar
+*.log
+*.tar.gz
+logcat*
+dmesg*
+
+# Python cache
+__pycache__/
+*.pyc

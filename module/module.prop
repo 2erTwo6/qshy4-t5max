@@ -1,0 +1,6 @@
+id=qingshan4_dash
+name=青山护眼4.0适配（dash）
+version=v1.2
+versionCode=3
+author=2erTwo6
+description=REDMI Turbo 5 Max (dash) 青山护眼4.0适配：dash.xml 打开 support_night_wakeup_mode_setting 与 enable_eyecare_wave_render；用只改 4 字节的原厂 MiuiFrameworkResOverlay 克隆（green_mountain_eyecare_version 3→4）替换原厂 overlay，保留全部 43 项资源。因 APatch Magic Mount 关闭，post-fs-data 用 bind mount 挂载；重启生效。源码不含小米 APK/XML/日志，构建时从本机固件读取。
